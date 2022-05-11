@@ -4,5 +4,4 @@ const form = document.querySelector('.form');
 form.addEventListener('submit', event => {
     controller.adiciona();
     event.preventDefault();
-    controller.adiciona();
 });
